@@ -1,5 +1,3 @@
-package Lab01;
-
 import javax.swing.JOptionPane;
 public class CalculateTwoNumber {
 	public static void main(String[] args) {
