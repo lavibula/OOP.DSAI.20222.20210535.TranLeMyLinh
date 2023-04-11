@@ -1,3 +1,4 @@
+package Lab01;
 import java.io.*;
 public class HelloWorld{
 	public static void main(String[] args) {

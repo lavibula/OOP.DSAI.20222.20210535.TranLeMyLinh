@@ -14,6 +14,7 @@ public class InputFromKeyboard {
 
 }
 */
+package Lab01;
 import java.io.*;
 import java.util.Scanner;
 
