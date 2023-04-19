@@ -14,7 +14,7 @@
         static void day(int m, int y){
             int d;
             if (m == 2){
-                if (y % 4 == 0 || (y % 100 == 0 && y % 400 != 0)) {
+                if (y % 4 == 0 || (y % 100 != 0 && y % 400 == 0)) {
                     d = 29;
                 }
                 else {d = 28;}
