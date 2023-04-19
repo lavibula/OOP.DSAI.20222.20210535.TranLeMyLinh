@@ -1,4 +1,4 @@
-package Lab01;
+
 import java.util.Scanner;
 public class Array {
     
@@ -36,7 +36,7 @@ public class Array {
 
     public static void main(String[] args) {
         
-        System.out.print("Matrix size (nxm): ");
+        System.out.print("Matrix size (n): ");
         int n = keyboard.nextInt();
         int array[] = new int[n];
         for (int i = 0; i<n; i++) {
