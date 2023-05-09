@@ -10,7 +10,10 @@ The activities here are for submitting OOP assignments.
 ### Lab01: Environment Setup and Java Basics
 [Lab01](https://github.com/lavibula/OOP.DSAI.20222.20210535.TranLeMyLinh/tree/main/src/Lab01)
 
-### Lab02: updating...
+### Lab02: Problem Modeling and Encapsulation
+[Lab02](https://github.com/lavibula/OOP.DSAI.20222.20210535.TranLeMyLinh/tree/main/src/Lab02)
+
+### Lab03: updating...
 
 
 ## Authors
