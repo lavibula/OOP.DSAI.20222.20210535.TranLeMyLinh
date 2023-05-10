@@ -18,6 +18,13 @@ public class Aims {
 		//print total cost
 		System.out.println("Total cost is: ");
 		System.out.println(anOrder.totalCost());
+		
+		System.out.println("-------------------------:3-------------------------");
+		System.out.println("After remove");
+		
+		anOrder.removeDigitalVideoDisc(dvd1);
+		System.out.println("Total cost is: ");
+		System.out.println(anOrder.totalCost());
 	}
 
 }
