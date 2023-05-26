@@ -3,6 +3,9 @@ public class DigitalVideoDisc {
 	private String title;
 	private String category;
 	private String director;
+	private int length;
+	private float cost;
+	
 	public String getTitle() {
 		return title;
 	}
@@ -18,8 +21,6 @@ public class DigitalVideoDisc {
 	public float getCost() {
 		return cost;
 	}
-	private int length;
-	private float cost;
 	public DigitalVideoDisc(String title) {
 		super();
 		this.title = title;
@@ -37,6 +38,10 @@ public class DigitalVideoDisc {
 		this.director = director;
 		this.length = length;
 		this.cost = cost;
+	}
+	public void setTitle(String title) {
+		// TODO Auto-generated method stub
+		this.title = title;
 	}
 	
 	
