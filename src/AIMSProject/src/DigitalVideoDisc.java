@@ -5,7 +5,14 @@ public class DigitalVideoDisc {
 	private String director;
 	private int length;
 	private float cost;
-	
+	private int id;
+	private static int nbDigitalVideoDiscs = 0;
+
+	public DigitalVideoDisc(){
+		nbDigitalVideoDiscs++;
+		id = nbDigitalVideoDiscs;
+	}
+
 	public String getTitle() {
 		return title;
 	}
@@ -43,7 +50,14 @@ public class DigitalVideoDisc {
 		// TODO Auto-generated method stub
 		this.title = title;
 	}
+
+	public boolean isMatch(String title){
+
+		return true;
+	}
 	
-	
+	public String toString(){
+		return "DVD - " + title + " - " + category + " - " + director + " - " + length + ":" + cost + "$";
+	}
 	
 }
