@@ -1,5 +1,6 @@
+package OtherProject.hust.soict.dsai.lab01.src;
 
-	import java.util.Scanner;
+import java.util.Scanner;
 
     public class DaysOfMonth {
         static Scanner keyboard = new Scanner(System.in);

@@ -1,3 +1,5 @@
+package OtherProject.hust.soict.dsai.lab01.src;
+
 import java.io.*;
 public class HelloWorld{
 	public static void main(String[] args) {

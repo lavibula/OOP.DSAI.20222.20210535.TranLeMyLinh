@@ -1,4 +1,4 @@
-/** import java.util.Scanner;
+package OtherProject.hust.soict.dsai.lab01.src; /** import java.util.Scanner;
 public class InputFromKeyboard {
 	public static void main(String[] args) {
 		Scanner keyboard = new Scanner(System.in);

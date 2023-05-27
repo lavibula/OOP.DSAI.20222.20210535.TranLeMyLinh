@@ -1,3 +1,5 @@
+package OtherProject.hust.soict.dsai.lab01.src;
+
 import javax.swing.JOptionPane;
 public class HelloNameDialog{
 	public static void main(String[] args) {
