@@ -1,8 +1,11 @@
+package AIMSProject.src.hust.soict.dsai.aims.cart;
+
+import AIMSProject.src.hust.soict.dsai.aims.disc.DigitalVideoDisc;
 
 public class Cart {
 	// Add a field as an array to store a list of DigitalVideoDisc.  
 	public static final int MAX_NUMBERS_ORDERED = 20;
-	private DigitalVideoDisc itemsOdered[] = new DigitalVideoDisc[MAX_NUMBERS_ORDERED]; 
+	private DigitalVideoDisc itemsOdered[] = new DigitalVideoDisc[MAX_NUMBERS_ORDERED];
 	
 	// To keep track of how many DigitalVideoDiscs are in the cart
 	private int qtyOrdered = 0;
@@ -19,7 +22,7 @@ public class Cart {
 		
 	}
 
-	public void addDigitalVideoDisc(DigitalVideoDisc [] dvdList) {
+	public void addDigitalVideoDisc(DigitalVideoDisc[] dvdList) {
 		for (DigitalVideoDisc disc: dvdList) {
 			if (qtyOrdered < MAX_NUMBERS_ORDERED) {
 				itemsOdered[qtyOrdered++] = disc;
@@ -63,7 +66,7 @@ public class Cart {
 		System.out.println("Ordered Items:");
 		for (int i = 0; i < qtyOrdered; i++) {
 			DigitalVideoDisc dvd = itemsOdered[i];
-			System.out.println((i+1) + ". " + dvd.toString());
+			System.out.println((i+1) + " " + dvd.toString());
 		}
 		System.out.println("Total Cost: " + totalCost());
 		System.out.println("***************************************************");

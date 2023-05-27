@@ -1,3 +1,8 @@
+package AIMSProject.src.hust.soict.dsai.aims.test.store;
+
+import AIMSProject.src.hust.soict.dsai.aims.disc.DigitalVideoDisc;
+import AIMSProject.src.hust.soict.dsai.aims.store.Store;
+
 public class StoreTest {
     public static void main(String[] args) {
         Store store = new Store();

@@ -1,3 +1,6 @@
+package AIMSProject.src.hust.soict.dsai.aims.store;
+
+import AIMSProject.src.hust.soict.dsai.aims.disc.DigitalVideoDisc;
 
 public class Store {
     private DigitalVideoDisc[] itemsInStore;
@@ -14,7 +17,7 @@ public class Store {
             itemCount++;
             System.out.println("DVD " + dvd.getTitle() + " added to the store.");
         } else {
-            System.out.println("Store is full. Cannot add DVD.");
+            System.out.println("AIMSProject.src.hust.soict.dsai.aims.store.Store is full. Cannot add DVD.");
         }
     }
 
