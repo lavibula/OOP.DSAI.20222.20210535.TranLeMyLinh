@@ -1,3 +1,4 @@
+
 public class Store {
     private DigitalVideoDisc[] itemsInStore;
     private int itemCount;
