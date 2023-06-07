@@ -34,8 +34,8 @@ implements Playable{
 
         System.out.println("Track length: " + this.getLength());
     }
-    public boolean equals(Object o){
-        Track itm = (Track) o;
+    public boolean equals(Object obj){
+        Track itm = (Track) obj;
         return this.getTitle().equals(itm.getTitle()) && this.getLength() == itm.getLength();
     }
 }
