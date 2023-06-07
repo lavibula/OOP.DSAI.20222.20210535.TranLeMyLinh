@@ -77,8 +77,8 @@ public class Media {
         return "Media - " + this.getTitle() + " - " + this.getCategory() + " - " +  ":" + this.getCost() + "$";
     }
 
-    public boolean equals(Object obj){
-        Media itm = (Media) obj;
+    public boolean equals(Object o){
+        Media itm = (Media) o;
         return this.getTitle().equals(itm.getTitle());
     }
 
