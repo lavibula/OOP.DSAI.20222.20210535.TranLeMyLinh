@@ -1,6 +1,6 @@
 package AIMSProject.src.hust.soict.dsai.aims.test.store;
 
-import AIMSProject.src.hust.soict.dsai.aims.disc.DigitalVideoDisc;
+import AIMSProject.src.hust.soict.dsai.aims.media.DigitalVideoDisc;
 import AIMSProject.src.hust.soict.dsai.aims.store.Store;
 
 public class StoreTest {
@@ -13,9 +13,9 @@ public class StoreTest {
         DigitalVideoDisc dvd3 = new DigitalVideoDisc("Movie 3");
 
         // Add DVDs to the store
-        store.addDVD(dvd1);
-        store.addDVD(dvd2);
-        store.addDVD(dvd3);
+        store.addMedia(dvd1);
+        store.addMedia(dvd2);
+        store.addMedia(dvd3);
 
         // Remove a DVD from the store
         store.removeDVD(dvd2);
