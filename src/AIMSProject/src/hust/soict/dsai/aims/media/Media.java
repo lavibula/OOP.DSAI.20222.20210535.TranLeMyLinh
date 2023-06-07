@@ -1,5 +1,8 @@
 package AIMSProject.src.hust.soict.dsai.aims.media;
 
+import AIMSProject.src.hust.soict.dsai.aims.comparator.MediaComparatorByCostTitle;
+import AIMSProject.src.hust.soict.dsai.aims.comparator.MediaComparatorByTitleCost;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;

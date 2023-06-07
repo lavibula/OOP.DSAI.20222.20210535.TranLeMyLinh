@@ -4,15 +4,14 @@ import AIMSProject.src.hust.soict.dsai.aims.media.DigitalVideoDisc;
 import AIMSProject.src.hust.soict.dsai.aims.media.Media;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 public class Store {
     public static final int MAX_NUMBERS_ORDER = 10;
     private ArrayList<Media> itemsInStore = new ArrayList<>();
-    private int itemCount;
+    private int itemCount = 0;
 
-    public Store() {
-        itemCount = 0;
-    }
 
     public void addMedia(Media media) {
         if (itemCount < itemsInStore.size()) {
@@ -24,7 +23,7 @@ public class Store {
         }
     }
 
-    public void removeDVD(Media media) {
+    public void removeMedia(Media media) {
         boolean found = false;
         int index = -1;
 
@@ -48,6 +47,11 @@ public class Store {
         } else {
             System.out.println("Media " + media.getTitle() + " not found in the store.");
         }
+    }
+
+
+    public ArrayList<Media> getItemsInStore() {
+        return itemsInStore;
     }
 }
 

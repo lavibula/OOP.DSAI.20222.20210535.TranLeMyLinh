@@ -4,6 +4,8 @@ import AIMSProject.src.hust.soict.dsai.aims.media.DigitalVideoDisc;
 import AIMSProject.src.hust.soict.dsai.aims.media.Media;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 public class Cart {
 	// Add a field as an array to store a list of DigitalVideoDisc.  
@@ -63,5 +65,9 @@ public class Cart {
 		}
 		System.out.println("Total Cost: " + totalCost());
 		System.out.println("***************************************************");
+	}
+
+	public ArrayList<Media> getItemsOdered() {
+		return itemsOdered;
 	}
 }

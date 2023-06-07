@@ -18,9 +18,9 @@ public class StoreTest {
         store.addMedia(dvd3);
 
         // Remove a DVD from the store
-        store.removeDVD(dvd2);
+        store.removeMedia(dvd2);
 
         // Try to remove a DVD that doesn't exist in the store
-        store.removeDVD(new DigitalVideoDisc("Non-existent Movie"));
+        store.removeMedia(new DigitalVideoDisc("Non-existent Movie"));
     }
 }

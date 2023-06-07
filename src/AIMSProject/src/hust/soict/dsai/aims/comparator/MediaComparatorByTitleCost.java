@@ -1,4 +1,6 @@
-package AIMSProject.src.hust.soict.dsai.aims.media;
+package AIMSProject.src.hust.soict.dsai.aims.comparator;
+
+import AIMSProject.src.hust.soict.dsai.aims.media.Media;
 
 import java.util.Comparator;
 
