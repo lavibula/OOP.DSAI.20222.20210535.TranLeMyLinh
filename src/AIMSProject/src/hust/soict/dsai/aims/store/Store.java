@@ -49,5 +49,9 @@ public class Store {
             System.out.println("Media " + media.getTitle() + " not found in the store.");
         }
     }
+
+    public ArrayList<Media> getItemsInStore() {
+        return itemsInStore;
+    }
 }
 

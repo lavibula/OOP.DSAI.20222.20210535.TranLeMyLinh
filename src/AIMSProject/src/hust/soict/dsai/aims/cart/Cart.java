@@ -8,10 +8,10 @@ import java.util.ArrayList;
 public class Cart {
 	// Add a field as an array to store a list of DigitalVideoDisc.  
 	public static final int MAX_NUMBERS_ORDERED = 20;
-	private ArrayList<Media> itemsOdered = new ArrayList<>();
+	private static ArrayList<Media> itemsOdered = new ArrayList<>();
 
 	//add an item to the list
-	public void addMedia(Media media){
+	public static void addMedia(Media media){
 		if (itemsOdered.size() < MAX_NUMBERS_ORDERED){
 			itemsOdered.add(media);
 		}
